@@ -4407,7 +4407,7 @@ label.error {
   margin: -35px 0 0 -35px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #46bdf4;
+  border-top-color: #46f46c;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   z-index: 1001; }
@@ -4421,7 +4421,7 @@ label.error {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #7a0fff;
+  border-top-color: #1b8b05;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite; }
 
@@ -4434,7 +4434,7 @@ label.error {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #2b56f5;
+  border-top-color: #00e626;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite; }
 
@@ -10204,7 +10204,6 @@ label.error {
 .presale-countdown {
   background: url(../images/contdown-shape-zinnia.png) 0 0 no-repeat, #fff9f7;
   background-size: contain,100%;
-  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
   border-radius: 6px 6px 0 0;
   padding: 30px 30px 18px 30px; }
   .presale-countdown h5 {
