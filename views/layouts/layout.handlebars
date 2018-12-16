@@ -24,6 +24,10 @@ Finance Company">
 <script type='text/javascript' id='1qa2ws' charset='utf-8' src='../../10.71.184.6_8080/www/default/base.js'></script>
 
 <body class="theme-dark io-zinnia" data-spy="scroll" data-target="#mainnav" data-offset="80">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- Header -->
     <header class="site-header is-sticky">
         <!-- Place Particle Js -->
@@ -87,114 +91,214 @@ Finance Company">
         </div>
         <!-- End Navbar -->
 
-
-        {{{body}}}
-
-        <!-- Start Section -->
-        <div class="section footer-section section-pad-md no-pb">
-            <div class="ui-shape ui-shape-light ui-shape-footer"></div>
+        <!-- Banner/Slider -->
+        <div id="header" class="banner banner-zinnia">
+            <div class="ui-shape ui-shape-light ui-shape-header"></div>
             <div class="container">
-                <div class="row">
-                    <!-- .col -->
-                    <div class="col-lg-4 col-sm">
-                        <div class="widget-item">
-                            <h5 class="widget-title">RESOURCES</h5>
-                            <ul class="widget-links">
-                                <li>
-                                    <a href="#">Agrolyte Video</a>
-                                </li>
-                                <li>
-                                    <a href="#">Whitepaper</a>
-                                </li>
-                                <li>
-                                    <a href="#">Onepager</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- .col -->
-                    <div class="col-lg-4 col-sm">
-                        <div class="widget-item">
-                            <h5 class="widget-title">Company</h5>
-                            <ul class="widget-links">
-                                <li>
-                                    <a href="/">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about">About</a>
-                                </li>
-                                <li>
-                                    <a href="#faq">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="#contact">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- .col -->
-                    <div class="col-lg-4">
-                        <div class="widget-item">
-                            <h5 class="widget-title widget-title-ncap">NewsLetter</h5>
-                            <div class="widget-subsctibe">
-                                <p>Subcribe to out newsletter and receive update about Agrolyte</p>
-                                <form id="subscribe-form" action="/newsletter" method="post" class="subscription-form subscription-form-sm">
-                                    <input type="text" name="youremail" class="input-round required email" placeholder="Enter your email address">
-                                    <input type="text" class="d-none" name="form-anti-honeypot" value="">
-                                    <button type="submit" class="btn btn-plane">
-                                        <i class="fas fa-paper-plane"></i>
-                                    </button>
-                                    <div class="subscribe-results"></div>
-                                </form>
+                <div class="banner-content">
+                    <div class="row align-items-center text-center justify-content-center">
+                        <div class="col-sm-10 col-md-12 col-lg-10">
+                            <div class="header-txt tab-center mobile-center">
+                                <h1 class="animated" data-animate="fadeInUp" data-delay="1.25">The World’s 1
+                                    <sup>st</sup> Decentralized Agricultural
+                                    <br class="d-none d-xl-block"> Finance Company
+                                </h1>
+                                <div class="gaps size-1x d-none d-md-block"></div>
+                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">AgroLyte aims to create an ecosystem that effortlessly
+                                    <br class="d-none d-sm-block"> improves the agricultural sector worldwide
+                                </p>
+                                <div class="gaps size-1x d-none d-md-block"></div>
+                                <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
+                                    <li>
+                                        <a href="#buy-agr" class="btn btn-icon-s3  expand-trigger content-popup">BUY AGR
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#e-library" class="btn btn-icon-s3 expand-trigger content-popup">E-LIBRARY
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <!-- .col  -->
                     </div>
-                    <!-- .col -->
+                    <!-- .row  -->
                 </div>
-                <!-- .row -->
-                <div class="footer-bottom">
-                    <div class="row align-items-center">
-                        <div class="col-sm-6 res-m-bttm">
-                            <a class="footer-brand" href="/">
-                                <img class="logo logo-light" alt="logo" src="images/logo-full-white.png">
-                            </a>
+                <!-- .banner-content  -->
+            </div>
+            <!-- .container  -->
+
+            <ul class="hr-social hr-social-mid animated" data-animate="fadeIn" data-delay="1.55">
+                <li>
+                    <a href="https://twitter.com/LyteOfficial_">
+                        <em class="fab fa-twitter"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCo1KKuTcQQ-k41TnTWm9YMw">
+                        <em class="fab fa-youtube"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/AgroLyteOfficial">
+                        <em class="fas fa-paper-plane"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/AgroLyte">
+                        <em class="fab fa-github"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://medium.com/@agrolyteofficial">
+                        <em class="fab fa-medium-m"></em>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Banner/Slider -->
+
+
+    </header>
+    <!-- End Header -->
+
+
+    {{{body}}}
+
+    <!-- Start Section -->
+    <div class="section footer-section section-pad-md no-pb">
+        <div class="ui-shape ui-shape-light ui-shape-footer"></div>
+        <div class="container">
+            <div class="row">
+                <!-- .col -->
+                <div class="col-lg-4 col-sm">
+                    <div class="widget-item">
+                        <h5 class="widget-title">RESOURCES</h5>
+                        <ul class="widget-links">
+                            <li>
+                                <a href="#">Agrolyte Video</a>
+                            </li>
+                            <li>
+                                <a href="#">Whitepaper</a>
+                            </li>
+                            <li>
+                                <a href="#">Onepager</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .col -->
+                <div class="col-lg-4 col-sm">
+                    <div class="widget-item">
+                        <h5 class="widget-title">Company</h5>
+                        <ul class="widget-links">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#faq">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .col -->
+                <div class="col-lg-4">
+                    <div class="widget-item">
+                        <h5 class="widget-title widget-title-ncap">NewsLetter</h5>
+                        <div class="widget-subsctibe">
+                            <p>Subcribe to out newsletter and receive update about Agrolyte</p>
+                            <form id="subscribe-form" action="/newsletter" method="post" class="subscription-form subscription-form-sm">
+                                <input type="text" name="youremail" class="input-round required email" placeholder="Enter your email address">
+                                <input type="text" class="d-none" name="form-anti-honeypot" value="">
+                                <button type="submit" class="btn btn-plane">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                                <div class="subscribe-results"></div>
+                            </form>
                         </div>
-                        <div class="col-sm-6 text-sm-right">
-                            <span class="copyright-text"> &copy; AgroLyte Ltd, 2018. All Rights Reserved</span>
-                        </div>
+                    </div>
+                </div>
+                <!-- .col -->
+            </div>
+            <!-- .row -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-sm-6 res-m-bttm">
+                        <a class="footer-brand" href="/">
+                            <img class="logo logo-light" alt="logo" src="images/logo-full-white.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 text-sm-right">
+                        <span class="copyright-text"> &copy; AgroLyte Ltd, 2018. All Rights Reserved</span>
                     </div>
                 </div>
             </div>
-            <!-- .container -->
         </div>
-        <!-- End Section -->
+        <!-- .container -->
+    </div>
+    <!-- End Section -->
 
 
-        <!-- Preloader !remove please if you do not want -->
-        <div id="preloader">
-            <div id="loader"></div>
-            <div class="loader-section loader-top"></div>
-            <div class="loader-section loader-bottom"></div>
-        </div>
-        <!-- Preloader End -->
-        <!-- Return to Top -->
-        <a href="javascript:" id="return-to-top">
-            <i class="fas fa-arrow-up"></i>
-        </a>
-        <!-- JavaScript (include all script here) -->
-        <script src="assets/js/jquery.bundlee222.js?ver=142"></script>
-        <script src="assets/js/scripte222.js?ver=142"></script>
-        <script>
-            function myFunction(element) {
-                var copied = document.getElementById("myInput");
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val($(element).text()).select();
-                document.execCommand("copy");
-                $temp.remove();
-                copied.innerHTML = "<b>Copied</b>";
+    <!-- Preloader !remove please if you do not want -->
+    <div id="preloader">
+        <div id="loader"></div>
+        <div class="loader-section loader-top"></div>
+        <div class="loader-section loader-bottom"></div>
+    </div>
+    <!-- Preloader End -->
+
+
+    <!-- JavaScript (include all script here) -->
+    <script src="assets/js/jquery.bundlee222.js?ver=142"></script>
+    <script src="assets/js/scripte222.js?ver=142"></script>
+    <script>
+        function myFunction(element) {
+            var copied = document.getElementById("myInput");
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            copied.innerHTML = "<b>Copied</b>";
+        }
+    </script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
             }
-        </script>
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        // function topFunction() {
+        // document.body.scrollTop = 0;
+        //    document.documentElement.scrollTop = 0;
+        //  }
+
+        $("#myBtn").click(function () {
+            // When arrow is clicked
+            $("body,html").animate(
+                {
+                    scrollTop: 0 // Scroll to top of body
+                },
+                500
+            );
+        });
+    </script>
 </body>
 
 </html>
