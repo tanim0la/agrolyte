@@ -6139,8 +6139,11 @@ label.error {
 .delay-19ms {
   transition-delay: 1.9s; }
 
-.delay-20ms {
-  transition-delay: 2s; }
+.delay-150ms {
+  transition-delay: 15s; }
+
+  .delay-170ms {
+    transition-delay: 17s; }
 
 .active .animate-down, .active .animate-up, .active .animate-left, .active .animate-right, .active .animate-fade {
   opacity: 1; }
@@ -11560,4 +11563,49 @@ label.error {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .io-jasmine .countdown-box .countdown-time:after, .io-lungwort .countdown-box .countdown-time:after {
     font-size: 24px; } }
+
+
+
+    #return-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: rgb(0, 0, 0);
+      background: rgba(97, 187, 94, 0.7);
+      width: 50px;
+      height: 50px;
+      display: block;
+      text-decoration: none;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      border-radius: 35px;
+      display: none;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  #return-to-top i {
+      color: rgba(255, 255, 255, 0.925);
+      margin: 0;
+      position: relative;
+      left: 16px;
+      top: 13px;
+      font-size: 19px;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  #return-to-top:hover {
+      background: rgba(60, 226, 19, 0.9);
+  }
+  #return-to-top:hover i {
+      color: #fff;
+      top: 5px;
+  }
+  
+  
 /** END */
