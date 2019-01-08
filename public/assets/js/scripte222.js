@@ -21,6 +21,7 @@
         : n.hasClass("has-fixed") && n.removeClass("has-fixed");
     });
   }
+
   a('a.menu-link[href*="#"]:not([href="#"])').on("click", function() {
     if (
       location.pathname.replace(/^\//, "") ===

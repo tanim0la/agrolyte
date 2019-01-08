@@ -96,7 +96,33 @@ body {
 
 html, body {
   overflow-x: hidden; }
-
+.home{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 30%
+}
+#erc20{
+  padding-top: 1em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+}
+@media (min-width: 300px){
+  .home{
+    width: 70%;
+  }
+}
+@media (min-width: 360px){
+  .home{
+    width: 70%;
+  }
+}
+@media (min-width: 687px){
+  .home{
+    width: 50%;
+  }
+}
 h1, h2, h3, h4, h5, h6, p, ul, ol, table {
   margin: 0 0 18px; }
   h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child, ul:last-child, ol:last-child, table:last-child {
@@ -10318,6 +10344,22 @@ label.error {
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.3);
     animation: 1s ease 0s normal none infinite running playbutton; }
+
+    .play-btn-s31 {
+      position: absolute;
+      top: 50%;
+      left: 15%; 
+      padding-bottom: 45px;
+      padding-top: 30px;
+      transform: translate(-50%, -50%);
+   }
+      .play-btn-s31:after {
+        position: absolute;
+        content: "";
+        height: calc(100% + 16px);
+        width: calc(100% + 16px);
+      
+       }
 
 .prblmsltn-list {
   padding-bottom: 50px; }
