@@ -127,14 +127,24 @@ Finance Company">
     <script src="assets/js/jquery.bundlee222.js?ver=142"></script>
     <script src="assets/js/scripte222.js?ver=142"></script>
     <script>
-        function myFunction(element) {
-            var copied = document.getElementById("myInput");
-            var $temp = $("<input>");
-            $("body").append($temp);
-            $temp.val($(element).text()).select();
-            document.execCommand("copy");
-            $temp.remove();
-            copied.innerHTML = "<b>Copied</b>";
+        function myFunction1(that) {
+            var inp = document.createElement('input');
+            var tt = document.getElementById("myInput1")
+            document.body.appendChild(inp)
+            inp.value = that.textContent
+            inp.select();
+            document.execCommand('copy', false);
+            inp.remove();
+            tt.innerHTML = "<b>Copied!!!</b>"
+            lent();
+            function lent() {
+                setTimeout(function () {
+                    var addr = "<b>0xd1a616cd3BD9Db97639ec484d843d37f2Caa3035</b>"
+                    tt.innerHTML = addr;
+                    //tt.innerHTML = 
+                }, 3000)
+            }
+            //alert(inp.value)
         }
     </script>
 
