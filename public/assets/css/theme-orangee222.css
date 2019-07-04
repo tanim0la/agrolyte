@@ -564,9 +564,9 @@ a {
 .token-point:after {
   background: rgba(255, 169, 61, 0.4); }
 
-.roadmap-carousel:before, .roadmap-carousel:after {
+.roadmap-  usel:before, .roadmap-  usel:after {
   background: #ffe2bd; }
-.roadmap-carousel-container:before {
+.roadmap-  usel-container:before {
   background: #ffe2bd; }
 .roadmap-item h6:before {
   background: rgba(255, 169, 61, 0.3); }
@@ -717,9 +717,9 @@ a {
     color: #374574; }
     .theme-muscari .text-block p:not(.lead) {
       color: #637097; }
-  .theme-muscari .roadmap-carousel-withnav:before, .theme-muscari .roadmap-carousel-withnav:after {
+  .theme-muscari .roadmap-  usel-withnav:before, .theme-muscari .roadmap-  usel-withnav:after {
     background: #ffc67f; }
-  .theme-muscari .roadmap-carousel-container:before {
+  .theme-muscari .roadmap-  usel-container:before {
     background: #ffc67f; }
   .theme-muscari .roadmap-item h6:before {
     background: rgba(255, 142, 0, 0.3); }
@@ -774,7 +774,7 @@ a {
 .text-box.text-box-bg {
   background: rgba(0, 0, 0, 0.2); }
 
-.roadmap-carousel-withnav .owl-prev, .roadmap-carousel-withnav .owl-next {
+.roadmap-  usel-withnav .owl-prev, .roadmap-  usel-withnav .owl-next {
   color: rgba(255, 101, 52, 0.3); }
 
 .section-bg-light .tab-custom-s2 .nav-tabs li > a {
@@ -1426,9 +1426,9 @@ a {
     background: #dc5035; }
   .theme-salvia .team-intro {
     color: #353c65 !important; }
-  .theme-salvia .roadmap-carousel:before, .theme-salvia .roadmap-carousel:after {
+  .theme-salvia .roadmap-  usel:before, .theme-salvia .roadmap-  usel:after {
     background: #9960d5; }
-  .theme-salvia .roadmap-carousel-container:before {
+  .theme-salvia .roadmap-  usel-container:before {
     background: rgba(153, 96, 213, 0.3); }
   .theme-salvia .roadmap-item:after {
     background: rgba(219, 205, 242, 0.6); }

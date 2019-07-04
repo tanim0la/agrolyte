@@ -16,6 +16,10 @@ router.get("/airdrop", function(req, res) {
   res.render("airdrop");
 });
 
+router.get("/whoami", function(req, res) {
+  res.render("event");
+});
+
 // contact us
 router.post("/", (req, res) => {
   //res.render('index');

@@ -13,10 +13,7 @@ const newsletter = require("./routes/api/newsletter");
 
 //connect db
 mongoose
-  .connect(
-    db,
-    { useNewUrlParser: true }
-  )
+  .connect(db, { useNewUrlParser: true })
   .then(() => console.log("MongoDB is Connected..."))
   .catch(err => console.log(err));
 
