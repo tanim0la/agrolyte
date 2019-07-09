@@ -12,8 +12,8 @@ router.get("/buy-agr", function(req, res) {
   res.render("buyagr");
 });
 
-router.get("/airdrop", function(req, res) {
-  res.render("airdrop");
+router.get("/swap", function(req, res) {
+  res.render("swap");
 });
 
 router.get("/whoami", function(req, res) {

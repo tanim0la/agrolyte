@@ -100,14 +100,10 @@
 
 <!-- JavaScript (include all script here) -->
 <script>
-    var closebtns = document.getElementsByClassName("closer");
-    var i;
-
-    for (i = 0; i < closebtns.length; i++) {
-        closebtns[i].addEventListener("click", function () {
-            this.parentElement.style.display = 'none';
-        });
+    function closeit() {
+        document.getElementById('closer').setAttribute("style", "display:none");
     }
+    setTimeout("closeit", 3000);
 </script>
 <script src="assets/js/jquery.bundlee222.js?ver=142"></script>
 <script src="assets/js/scripte222.js?ver=142"></script>
@@ -124,7 +120,7 @@
         lent();
         function lent() {
             setTimeout(function () {
-                var addr = "<b>0xd1a616cd3BD9Db97639ec484d843d37f2Caa3035</b>"
+                var addr = "<b>0x0fC5a9e06645c313Bfc743F2C0030FfB199d3AdC</b>"
                 tt.innerHTML = addr;
                 //tt.innerHTML = 
             }, 3000)

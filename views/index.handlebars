@@ -25,17 +25,17 @@ Finance Company">
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <i class="fas fa-arrow-up"></i>
     </button>
-    <!--
-    <div class="ppl" style="margin: auto">
-        <ul class="lipe">
 
-            <li class="kipe"><span style="font-weight:400; color: rgb(133, 4, 4); text-align: center" class="text-center"><span
+    <div id="closer" class="fixed-top">
+        <ul class="lipe ppl">
+
+            <li class="kipe text-center"><span style="font-weight:400; color: rgb(133, 4, 4); text-align: center" class="text-center"><span
                         style="color: rgb(57, 124, 201)">Announcement:</span>
-                    AgroLyte Token Swap!!!</span><span class="closer">&times;</span></li>
+                    AgroLyte Token Swap!!!</span><span id="closer1" onclick="closeit()">X</span></li>
 
         </ul>
     </div>
-    -->
+
     <!-- Header -->
     <header class="site-header is-sticky">
         <!-- Place Particle Js -->
@@ -92,7 +92,7 @@ Finance Company">
                         <a href="assets/doc/AgroLyteWhitepaper2.0.pdf" target="_blank" class="nav-link btn btn-sm btn-outline menu-link">WHITEPAPER</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/airdrop" class="nav-link btn btn-sm btn-outline menu-link">AIRDROP</a>
+                        <a href="/swap" class="nav-link btn btn-sm btn-outline menu-link">SWAP</a>
                     </li>
                 </ul>
             </div>
@@ -120,12 +120,12 @@ Finance Company">
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
 
                                     <li>
-                                        <a href="/buy-agr" class="btn btn-icon-s3 ">BUY AGR
+                                        <a href="/buy-aglt" class="btn btn-icon-s3 ">BUY AGLT
                                             <i class="fas fa-angle-double-right"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="btn btn-icon-s3 expand-trigger content-popup">EVENT
+                                        <a href="#" class="btn btn-icon-s3">EVENT
                                             <i class="fas fa-angle-double-right"></i>
                                         </a>
                                     </li>
@@ -299,7 +299,7 @@ Finance Company">
                     <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".3">
                             <span>Ticker Symbol</span>
-                            <h5>AGR</h5>
+                            <h5>AGLT</h5>
                         </div>
                     </div>
                     <!-- .col -->
@@ -319,8 +319,8 @@ Finance Company">
                     <!-- .col -->
                     <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".6">
-                            <span>ICO price</span>
-                            <h5>0.0000002 ETH</h5>
+                            <span>Purchase Price</span>
+                            <h5>0.00035 ETH</h5>
                         </div>
                     </div>
                 </div>
@@ -354,14 +354,14 @@ Finance Company">
                     <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay="1">
                             <span>Softcap</span>
-                            <h5>600 ETH</h5>
+                            <h5>1,680 ETH</h5>
                         </div>
                     </div>
                     <!-- .col -->
                     <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay="1.1">
                             <span>Hardcap</span>
-                            <h5>1,680 ETH</h5>
+                            <h5>28,000 ETH</h5>
                         </div>
                     </div>
                     <!-- .col -->
@@ -369,7 +369,7 @@ Finance Company">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay="1.2">
                             <span>Smart Contract</span>
                             <p>
-                                <b>0xd1a616cd3BD9Db97639ec484d843d37f2Caa3035</b>
+                                <b>0xaaca4e6efdd63a9116aecd31ee929d0f778be0c0</b>
                             </p>
                         </div>
                     </div>
@@ -557,27 +557,27 @@ Finance Company">
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm">
                                     <span class="tkn-crt-prcnt one">
-                                        <span>50%</span>
+                                        <span>80%</span>
                                     </span>
-                                    <span class="tkn-crt-ttl">Company</span>
+                                    <span class="tkn-crt-ttl">Sales</span>
                                 </li>
                                 <li class="tkn-crt-itm">
                                     <span class="tkn-crt-prcnt two">
-                                        <span>40%</span>
+                                        <span>5%</span>
                                     </span>
-                                    <span class="tkn-crt-ttl">ICO</span>
+                                    <span class="tkn-crt-ttl">Company (Ecosystem Rewards)</span>
                                 </li>
                                 <li class="tkn-crt-itm">
                                     <span class="tkn-crt-prcnt three">
-                                        <span>7%</span>
+                                        <span>10%</span>
                                     </span>
-                                    <span class="tkn-crt-ttl">Bonus</span>
+                                    <span class="tkn-crt-ttl">Event</span>
                                 </li>
                                 <li class="tkn-crt-itm">
                                     <span class="tkn-crt-prcnt four">
-                                        <span>3%</span>
+                                        <span>5%</span>
                                     </span>
-                                    <span class="tkn-crt-ttl">Contest</span>
+                                    <span class="tkn-crt-ttl">Others</span>
                                 </li>
                             </ul>
                         </div>
@@ -807,7 +807,7 @@ Finance Company">
                         <div class="timeline-item ">
                             <span class="timeline-date">2019 Q2</span>
                             <ul class="timeline-info">
-                                <li>Exchange Listing</li>
+                                <li>Exchange Listing Planning</li>
 
                             </ul>
                         </div>
@@ -817,8 +817,9 @@ Finance Company">
                         <div class="timeline-item">
                             <span class="timeline-date">2019 Q3</span>
                             <ul class="timeline-info">
-                                <li>AgroLyte Library Launch</li>
-
+                                <li>Token Modified and Swap</li>
+                                <li>B.E.L.E Commences</li>
+                                <li>Exchange Listing </li>
                             </ul>
                         </div>
                     </div>
@@ -833,9 +834,9 @@ Finance Company">
                         <div class="timeline-item ">
                             <span class="timeline-date">2019 Q4</span>
                             <ul class="timeline-info">
-                                <li>AgroLyte Hackathon</li>
-                                <li>AgroLyte Educational Tour Commence [Africa]</li>
-                                <li>AgroLyte Summit Tour [Western Africa]</li>
+                                <li>B.E.L.E Conclude</li>
+                                <li>Alpha Testing</li>
+                                <li>AgroLyte Marketplace and Library Launch</li>
                             </ul>
                         </div>
                     </div>
@@ -844,9 +845,8 @@ Finance Company">
                         <div class="timeline-item">
                             <span class="timeline-date">2020 Q1</span>
                             <ul class="timeline-info">
-                                <li>AgroLyte Summit Tour Continues [Northern Africa]</li>
-                                <li>Operation Infuse Blockchain into Agriculture [OIBA] Begins</li>
-                                <li>Prove Of Concept/Work</li>
+                                <li>AgroLyte Educational Tour Commence [Africa]</li>
+                                <li>AgroLyte Summit Tour [Western Africa]</li>
                             </ul>
                         </div>
                     </div>
@@ -855,9 +855,9 @@ Finance Company">
                         <div class="timeline-item">
                             <span class="timeline-date">2020 Q2</span>
                             <ul class="timeline-info">
-                                <li>Alpha Test</li>
-                                <li>Token Swap [100-1]</li>
-                                <li>AgroLyte Educational Summit [Global]</li>
+                                <li>Beta Test</li>
+                                <li>AgroLyte Summit Tour Continues [Northern Africa]</li>
+                                <li>Operation Infuse Blockchain into Agriculture [OIBA] Begins</li>
                             </ul>
                         </div>
                     </div>
@@ -873,27 +873,17 @@ Finance Company">
                         <div class="timeline-item">
                             <span class="timeline-date">2020 Q3</span>
                             <ul class="timeline-info">
-                                <li>Private Beta Test</li>
-                                <li>Acquiring AgroLyte Farms</li>
+                                <li>Public Launch</li>
+                                <li>AgroLyte Educational Summit [Global]</li>
                             </ul>
                         </div>
                     </div>
                     <!-- .col -->
                     <div class="col-lg">
                         <div class="timeline-item">
-                            <span class="timeline-date">2021 Q1</span>
+                            <span class="timeline-date">2020 Q4</span>
                             <ul class="timeline-info">
-                                <li>Beta Test</li>
-                                <li>General Technical Update</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- .col -->
-                    <div class="col-lg">
-                        <div class="timeline-item">
-                            <span class="timeline-date">2021 Q2</span>
-                            <ul class="timeline-info">
-                                <li>Platform Launch</li>
+                                <li>Project AgroLyte Farms Commences</li>
                             </ul>
                         </div>
                     </div>

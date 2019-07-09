@@ -99,8 +99,9 @@ html, body {
 .home{
   margin:auto;
   display: block;
-  width: 25em;
-  height: 23em
+  width: auto;
+  height: auto;
+  padding-bottom: 25px
 }
 #erc20{
   padding-top: 1em;
@@ -109,11 +110,7 @@ html, body {
   font-weight: 700;
 }
 @media (min-width: 300px){
-  .home{
-    width: 30em;
-    height: 15em
-
-  }
+  
 }
 @media (min-width: 360px){
   .home{
@@ -135,11 +132,15 @@ ul .lipe{
   list-style-type: none;
   padding: 0;
   margin: 0;
-
+color: red;
 }
 .ppl{
+  max-width: 100%;
   color: rgba(102, 99, 99, 0.719);
   background: rgba(255, 216, 143, 0.808);
+}
+.kipe{
+  max-width: 99%;
 }
 ul li .input-round-s2::-webkit-input-placeholder{
   border: 1px solid #ddd;
@@ -153,13 +154,13 @@ ul li .input-round-s2::-webkit-input-placeholder{
   position: relative;
 }
 
-.closer {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  padding: 12px 16px;
-  transform: translate(0%, -50%);
+#closer1 {
+  color: red;
+  float: right;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 1em;
+
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, table {
   margin: 0 0 18px; }
