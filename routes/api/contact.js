@@ -16,7 +16,7 @@ router.get("/swap", function(req, res) {
   res.render("swap");
 });
 
-router.get("/whoami", function(req, res) {
+router.get("/whoamiweareanonymouswearelegion", function(req, res) {
   res.render("event");
 });
 

@@ -128,7 +128,27 @@
         //alert(inp.value)
     }
 </script>
-
+<script>
+    function myFunction2(that) {
+        var inp = document.createElement('input');
+        var tt = document.getElementById("myInput2")
+        document.body.appendChild(inp)
+        inp.value = that.textContent
+        inp.select();
+        document.execCommand('copy', false);
+        inp.remove();
+        tt.innerHTML = "<b>Copied!!!</b>"
+        lent();
+        function lent() {
+            setTimeout(function () {
+                var addr = "<b>0xaaca4e6efdd63a9116aecd31ee929d0f778be0c0</b>"
+                tt.innerHTML = addr;
+                //tt.innerHTML = 
+            }, 3000)
+        }
+        //alert(inp.value)
+    }
+</script>
 <script>
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
@@ -159,8 +179,7 @@
 </script>
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+<script src="assets/js/boot.min.js"></script>
 <script src="assets/js/jquery.backstretch.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/scripts.js"></script>
